@@ -1,0 +1,166 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>CONTACTENOS</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="icomoon/style.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos_contactenos.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1 minumum-scale=1">
+    <link rel="icon" href="logofv.ico">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+
+    <section id="logo">
+       <div class="logof">
+        <img class="logo1" src="imagenes/logo.png" alt="logo">
+        </div>
+        <div class="redes_s">
+        <a href="https://www.facebook.com/fuvifuturo/" target="_blank"><img src="imagenes/facebook.png" alt="facebook" class="social"></a>
+        <a href="https://www.instagram.com/fuvifuturo/" target="_blank"><img src="imagenes/instagram.png" alt="instagram" class="social"></a>
+        <a href="https://twitter.com/fuvifuturo" target="_blank"><img src="imagenes/Twitter.png" alt="twitter" class="social"></a>
+        <a href="https://www.youtube.com/channel/UCPT4qR4lsZO7Xh75s_4iBig" target="_blank"><img src="imagenes/youtube.png" alt="youtube" class="social"></a>
+        </div>
+    </section> 
+
+    <header>
+
+        <div class="contenedor">
+            <input type="checkbox" id="btn-menu">
+            <label class="icon-menu" for="btn-menu"></label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+
+                    <li class="submenu"><a href="#">Quienes Somos<span class="icon-down"></span></a>
+                        <ul>
+                            <li><a href="historia.html">Historia</a></li>
+                            <li><a href="junta.html">Junta Directiva</a></li>
+                            <li><a href="#">Equipo de Trabajo</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="submenu"><a href="#">Programas<span class="icon-down"></span></a>
+                        <ul>
+                            <li><a href="#">Jóvenes barrio 2 de noviembre</a></li>
+                            <li><a href="#">Jóvenes Clínica NeuroIntegral</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="documentos.html">Documentos</a></li>
+                    <li><a href="#">Contactos</a></li>
+                    <li><a href="apoyanos.html">Apoyanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script src="menu.js"></script>
+
+    <main>
+      
+      <section class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3938.0319233531186!2d-74.7505681852117!3d9.241442993373694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5ec77c21a0e1e1%3A0xb0f881dd20539b99!2sFundaci%C3%B3n+Fuvifuturo!5e0!3m2!1ses-419!2sco!4v1536595294507" width="100%" height="35%" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </section>
+
+      <section id="formulario">
+          <div class="redes">
+             <h3>Encuentranos en nuestras redes sociales</h3>
+              <a href="https://www.facebook.com/fuvifuturo/" target="_blank"><img src="imagenes/facebook.png" alt="facebook"></a>
+              <a href="https://twitter.com/fuvifuturo"><img src="imagenes/Twittert.png" alt="twitter"></a>
+              <a href="https://www.instagram.com/fuvifuturo/" target="_blank"><img src="imagenes/instagram.png" alt="instagram"></a>
+              <a href="https://www.youtube.com/channel/UCPT4qR4lsZO7Xh75s_4iBig?view_as=subscriber"><img src="imagenes/youtube.png" alt="youtube"></a>
+          </div>
+          
+          <div class="form">
+              <form action="enviar.php" method="post">
+                  <h2>CONTACTENOS</h2>
+                  <input type="text" name=nombre placeholder="Nombre (*)" required>
+                  <input type="mail" name=correo placeholder="Correo (*)" required>
+                  <input type="text" name=telefono placeholder="Teléfono (*)" required>
+                  <input type="text" name=ciudad placeholder="Ciudad (*)" required>
+                  <input type="text" name=pais placeholder="País (*)" required>
+                  <textarea name="mensaje" placeholder="Escriba aquí su mensaje (*)" required></textarea>
+                  <input type="submit" value="ENVIAR" id="boton">
+              </form>
+              
+          </div>
+          
+          <div class="datos">
+              <img src="imagenes/telefono.png" alt="telefono" /><h2 class="data">Hablemos</h2>
+              
+              <h3 class="data">Dirección</h3>
+              <p class="datap">Cra 9a No 20 - 19 Barrio Olaya Herrera</p>
+              <p class="datap">Magangué - Bolívar</p>
+              <p class="datap">Colombia</p>
+              
+              <h3 class="data">Teléfonos</h3>
+              <p class="datap">+57(5)6878599</p>
+              
+              <h3 class="data">Móvil</h3>
+              <p class="datap">+57 304-3478986</p>
+              <p class="datap">+57 300-0000000</p>
+              
+              <h3 class="data">Para información adicional escríbenos a:</h3>
+              <p class="datapm">info@fuvifuturo.org</p>
+              <p class="datapm">fuvifuturomg@gmail.com</p>
+          </div>
+      </section>
+      
+     
+    <section id="aliados">
+            <h3>Aliados</h3>
+
+            <div class="contenedor">
+                <img src="imagenes/pastoral.png">
+                <img src="imagenes/icbf.png">
+                <img src="imagenes/policia.png">
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+
+            <div class="informacion">
+            <hgroup><h3>Fundación Jóvenes con Visión y Futuro</h3> </hgroup>
+					<p>Cra 9a No 20 - 19 Barrio Olaya Herrera</p>
+					<p>Magangué, Bolívar</p>
+					<p>Tel: 304 3478986</p>
+					<p>E-mail: correo@fuvifuturo.org</p>
+					<p>www.fuvifuturo.org</p>
+       	  </div>
+
+            <div class="legal">
+                <h4><em>Fundación Fuvifuturo</em> - Todos los derechos reservados ©</h4>
+                <p>2018 - Diseño y programación <strong>Julio Andres Lemos</strong></p><br/> <br/>
+                <p class="politica">Política de uso de datos personales</p>
+            </div>
+
+
+            <div class="container-icons">
+                <h3>Redes Sociales</h3>
+
+                <a href="#">
+                    <div class="row-icon icon1">
+                        <h4>Facebook</h4><label class="icon-facebook-with-circle label1"></label></div>
+                </a>
+                <a href="#">
+                    <div class="row-icon icon2">
+                        <h4>Instagram</h4><label class="icon-instagram-with-circle label2"></label></div>
+                </a>
+                <a href="#">
+                    <div class="row-icon icon3">
+                        <h4>Twitter</h4><label class="icon-twitter-with-circle label3"></label></div>
+                </a>
+                <h2 class="icon-circle-with-plus"></h2>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
